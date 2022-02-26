@@ -1,0 +1,14 @@
+{
+  "name": "fm-challenges",
+  "description": "This is a repo with all the challenges of Frontend Mentor",
+  "version": "0.0.1",
+  "scripts": {
+    "dev:qr-code-component": "parcel ./qr-code-component/index.html"
+  },
+  "author": "@munozrc",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "2.3.2"
+  }
+}
