@@ -1,3 +1,5 @@
 # QR code component
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+<img src="./design/desktop-design.jpg" style="border-radius: 12px"/>
+
+**Status**: Completed
