@@ -3,7 +3,7 @@
   "description": "This is a repo with all the challenges of Frontend Mentor",
   "version": "0.0.1",
   "scripts": {
-    "dev:qr-code-component": "parcel ./qr-code-component/index.html"
+    "dev:qr-code-component": "parcel ./qr-code-component/src/index.html"
   },
   "author": "@munozrc",
   "license": "MIT",
