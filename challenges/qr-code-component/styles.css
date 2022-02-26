@@ -35,7 +35,7 @@ body {
   padding: 16px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  gap: 20px;
+  gap: 22px;
 }
 
 .card-header {
@@ -49,12 +49,12 @@ body {
 }
 
 .card-footer {
-  gap: 18px;
+  gap: 20px;
   padding: 0 18px 18px;
   text-align: center;
 }
 
-.card-footer > h4 {
+.card-footer > h1 {
   font-weight: 700;
   font-size: 22px;
   color: hsl(218, 44%, 22%);
