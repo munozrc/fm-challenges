@@ -2,13 +2,19 @@
   "name": "fm-challenges",
   "description": "This is a repo with all the challenges of Frontend Mentor",
   "version": "0.0.1",
+  "workspaces": [
+    "challenges/*"
+  ],
   "scripts": {
-    "dev:qr-code-component": "parcel ./qr-code-component/src/index.html"
+    "dev:qr-code-component": "parcel qr-code-component/index.html",
+    "build:qr-code-component": "parcel build --dist-dir dist/qr-code-component qr-code-component/index.html --public-url ./",
+    "build": "npm run build:*",
+    "deploy": "gh-pages -d dist"
   },
   "author": "@munozrc",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
+    "gh-pages": "3.2.3",
     "parcel": "2.3.2"
   }
 }
