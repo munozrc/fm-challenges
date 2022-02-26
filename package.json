@@ -6,9 +6,8 @@
     "challenges/*"
   ],
   "scripts": {
-    "dev:qr-code-component": "parcel qr-code-component/index.html",
-    "build:qr-code-component": "parcel build --dist-dir dist/qr-code-component qr-code-component/index.html --public-url ./",
-    "build": "npm run build:*",
+    "build": "npm run build --workspaces --if-present",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "@munozrc",
