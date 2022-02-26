@@ -1,0 +1,7 @@
+{
+  "name": "order-summary-component",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build --dist-dir ../../dist/order-summary-component index.html --public-url ./"
+  }
+}
