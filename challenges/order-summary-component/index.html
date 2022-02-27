@@ -2,23 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Order summary card</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  Order Summary
+  <main class="wrapper">
+    <article class="card">
+      <header class="card-hero">
+        <img src="./images/illustration-hero.svg" alt="girl singing"/>
+      </header>
+      <footer class="card-content">
+        <div class="card-content-title">
+          <h1>Order Summary</h1>
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+        <div class="card-content-actions">
+          <section class="card-action">
+            <div class="card-action-info">
+              <span class="card-action-icon"></span>
+              <div class="card-action-info">
+                <h4>Annual Plan</h4>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <button class="btn btn-link">Change</button>
+          </section>
+          <button class="btn btn-primary">Proceed to Payment</button>
+          <button class="btn btn-flat">Cancel Order</button>
+        </div>
+      </footer>
+    </article>
+  </main>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
 </body>
 </html>
