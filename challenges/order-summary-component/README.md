@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-card-with-css-and-html-B3cuBI1SY)
 - [Live Site](https://munozrc.github.io/fm-challenges/order-summary-component/)
 
 ### Built with
