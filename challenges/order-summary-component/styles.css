@@ -34,6 +34,7 @@ button {
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 24px;
 }
 
 .wrapper__buttons {
@@ -93,6 +94,15 @@ button {
   border-radius: 20px;
   background-color: #FFF;
   box-shadow: 0px 10px 20px rgba(149, 157, 165, 0.2);
+}
+
+.card-hero {
+  width: 100%;
+}
+
+.card-hero > img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-content {
@@ -161,4 +171,49 @@ button {
   font-size: 1.02rem;
   font-weight: 900;
   color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .wrapper__buttons {
+    gap: 16px;
+  }
+
+  .card-action-titles > p {
+    font-size: 14px;
+  }
+
+  .card-content-title > p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .card-content {
+    padding: 30px 26px 20px 26px;
+  }
+
+  .card-content-title {
+    gap: 16px;
+  }
+
+  .card-content-title > h1 {
+    font-size: 22px;
+  }
+
+  .card-action {
+    padding: 16px;
+  }
+
+  .card-action-titles > h4 {
+    font-size: 0.90rem;
+  }
+
+  .card-content-actions {
+    gap: 20px;
+  }
+
+  .btn-link {
+    font-size: 0.8rem;
+  }
+
 }
