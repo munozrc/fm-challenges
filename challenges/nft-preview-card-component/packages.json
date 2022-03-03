@@ -1,0 +1,7 @@
+{
+  "name": "nft-preview-card-component",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build --dist-dir ../../dist/nft-preview-card-component index.html --public-url ./"
+  }
+}
