@@ -15,6 +15,7 @@ body {
   display: grid;
   place-items: center;
   font-size: 16px;
+  padding: 24px;
 }
 
 .card {
