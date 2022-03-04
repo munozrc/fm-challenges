@@ -20,13 +20,13 @@ body {
 
 .card {
   width: 100%;
-  max-width: 360px;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   border-radius: 14px;
   background-color: hsl(216, 50%, 16%);
   padding: 24px;
-  box-shadow: 0 30px 12px 5px hsl(217, 54%, 11%), 0 30px 30px 16px hsl(217, 54%, 11%);
+  box-shadow: 0 30px 12px 5px hsl(217, 54%, 11%);
 }
 
 .image {
@@ -105,7 +105,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 6px;
-  gap: 12px;
+  gap: 10px;
 }
 
 .author > img {
