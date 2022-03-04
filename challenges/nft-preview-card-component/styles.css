@@ -36,12 +36,32 @@ html, body, .container {
   aspect-ratio: 1;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.card__thumbnail::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 300ms ease-out;
+}
+
+.card__thumbnail:hover::after,
+.card__thumbnail:active::after {
+  background: hsla(178, 100%, 50%, 0.5) url(./images/icon-view.svg) center no-repeat;
+}
+
+.card__thumbnail:focus {
+  outline: 0.1875rem dotted #00fff7;
+  outline-offset: 0.3125rem;
 }
 
 .card__image {
   width: 100%;
   object-fit: cover;
-  cursor: pointer;
 }
 
 .card__title {
