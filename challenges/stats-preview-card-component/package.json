@@ -1,0 +1,7 @@
+{
+  "name": "stats-preview-card-component",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build --dist-dir ../../dist/stats-preview-card-component index.html --public-url ./"
+  }
+}
