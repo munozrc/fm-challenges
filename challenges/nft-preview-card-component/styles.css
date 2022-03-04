@@ -88,7 +88,7 @@ html, body, .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
   margin-bottom: 16px;
   border-bottom: 1px solid hsl(215, 32%, 27%);
   list-style: none;
