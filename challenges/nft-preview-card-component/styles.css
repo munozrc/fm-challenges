@@ -49,7 +49,6 @@ html, body, .container {
   font-size: 1.22222em;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
-  margin-top: 4px;
   margin: 24px 0 18px 0;
 }
 
@@ -98,11 +97,11 @@ html, body, .container {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 6px;
-  gap: 18px;
+  gap: 1em;
 }
 
 .card__profile-image {
-  width: 32px;
+  width: 1.7778em;
   aspect-ratio: 1;
   border-radius: 50%;
   border: 1.70px solid hsl(0, 0%, 100%);
