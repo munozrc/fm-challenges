@@ -23,10 +23,11 @@ html, body, .container {
   max-width: 350px;
   display: flex;
   flex-direction: column;
-  border-radius: 14px;
   background-color: hsl(216, 50%, 16%);
-  padding: 24px;
   box-shadow: 0 30px 12px 5px hsl(217, 54%, 11%);
+  border-radius: 14px;
+  padding: 24px;
+  font-size: 18px;
 }
 
 .card__thumbnail {
@@ -45,10 +46,11 @@ html, body, .container {
 
 .card__title {
   font-weight: 600;
-  font-size: 1.375em;
+  font-size: 1.22222em;
   color: hsl(0, 0%, 100%);
-  margin: 20px 0;
   cursor: pointer;
+  margin-top: 4px;
+  margin: 24px 0 18px 0;
 }
 
 .card__title:hover {
@@ -57,10 +59,10 @@ html, body, .container {
 
 .card__description {
   font-weight: 300;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.5;
   color: hsl(215, 51%, 70%);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .card__info {
@@ -78,6 +80,7 @@ html, body, .container {
   gap: 6px;
   cursor: pointer;
   align-items: center;
+  font-size: 0.8888em;
 }
 
 .card__price-value {
@@ -95,7 +98,7 @@ html, body, .container {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 6px;
-  gap: 10px;
+  gap: 18px;
 }
 
 .card__profile-image {
@@ -108,6 +111,7 @@ html, body, .container {
 .card__credits {
   color: hsl(215, 51%, 70%);
   font-weight: 400;
+  font-size: 0.8888em;
 }
 
 .card__author {
