@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-card-with-css-and-html-B3cuBI1SY)
-- [Live Site](https://munozrc.github.io/fm-challenges/nft-preview-card-component/)
+- [Live Site](https://munozrc.github.io/fm-challenges/stats-preview-card-component/)
 
 ### Built with
 
