@@ -5,17 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stats preview card component</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Import to custom styles css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Import fonts from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main class="container">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <section class="card">
+      <article class="card__content">
+        <h1 class="card__title">Get insights that help your business grow.</h1>
+        <p class="card__description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <ul class="card__list">
+          <li class="card__item">
+            <strong class="card__item-title">10k+</strong>
+            <p class="card__item-subtitle">companies</p>
+          </li>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+          <li class="card__item">
+            <strong class="card__item-title">314</strong>
+            <p class="card__item-subtitle">templates</p>
+          </li>
+
+          <li class="card__item">
+            <strong class="card__item-title">12M+</strong>
+            <p class="card__item-subtitle">queries</p>
+          </li>
+        </ul>
+      </article>
+      <aside class="card__hero"></aside>
+    </section>
+
+  </main>
 
 </body>
 </html>
